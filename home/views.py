@@ -3,9 +3,8 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    print('Eu posso fazer o que quiser')
     return render(
     request,
-    'home/index.html'
+    'home/pages/home.html'
     )
 
